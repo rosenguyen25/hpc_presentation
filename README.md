@@ -7,9 +7,10 @@ Very little theory on the actual mathematical rational/proof is presented. Pleas
 References:
 
 Numerical Linear Algebra, Trefethen and Bau
-Matrix Computations, Golub and Van Loan
-Numerical Recipes in C, Brian P. Flannery, Saul Teukolsky, William H. Press, and William T. Vetterling
 
+Matrix Computations, Golub and Van Loan
+
+Numerical Recipes in C, Brian P. Flannery, Saul Teukolsky, William H. Press, and William T. Vetterling
 
 ...and various open source algorithms...wikipaedia
 
