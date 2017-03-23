@@ -1,4 +1,4 @@
-# hpc_presentation
+# HPC Presentation: Linear Systems in C
 
 Solving linear systems in C using various matrix decompositions (QR, LU, Cholesky). 
 
