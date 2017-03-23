@@ -12,5 +12,5 @@ Matrix Computations, Golub and Van Loan
 
 Numerical Recipes in C, Brian P. Flannery, Saul Teukolsky, William H. Press, and William T. Vetterling
 
-...and various open source algorithms...wikipaedia
+And all example codes adapted from Rosetta Code (.com). 
 
