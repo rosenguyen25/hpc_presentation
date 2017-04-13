@@ -38,17 +38,25 @@ int main() {
                    15, 18,  0,
                    -5,  0, 11};
     double *c1 = cholesky(m1, n);
-    printf("The Cholesky Decomposition is A= L L^*.\n");
+    printf("\n"); 
+    printf("CHOLESKY DECOMPOSITION (A= L L^*): EXAMPLE 1 of 2\n");
+    printf("\n");
+    printf("A=\n");
+    show_matrix(m1,n);
     printf("Example 1: L=\n");
     show_matrix(c1, n);
     printf("\n");
     free(c1);
-    
+    printf("\n"); 
+    printf("CHOLESKY DECOMPOSITION (A= L L^*): EXAMPLE 2 of 2\n");
+    printf("\n");    
     n = 3;
     double m2[] = {4,  12, -16,
                   12,  37, -43,
                  -16, -43,  98};
     double *c2 = cholesky(m2, n);
+    printf("A=\n");
+    show_matrix(m1,n);
     printf("Example 2: L=\n");
     show_matrix(c2, n);
     free(c2);

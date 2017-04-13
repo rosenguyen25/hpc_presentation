@@ -112,7 +112,9 @@ int main()
 {
     int n = 3;
     mat A, L, P, U;
-    
+    printf("\n");    
+    printf("LU DECOMPOSITION: Example 1 of 2\n");
+    printf("\n");    
     _new(L); _new(P); _new(U);
     A = _copy(A3);
     _LU(A, L, U, P);
@@ -123,6 +125,10 @@ int main()
     
     n = 4;
     
+    printf("\n");    
+    printf("LU DECOMPOSITION: Example 2 of 2\n");
+    printf("\n");
+
     _new(L); _new(P); _new(U);
     A = _copy(A4);
     _LU(A, L, U, P);

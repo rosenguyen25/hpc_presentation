@@ -39,7 +39,9 @@ int main (void)
             a[i][j]=g[i*n+j];
         }
     }
-    
+
+    printf("\n");    
+    printf("QR DECOMPOSITION: Example 1 of 1\n");
     printf("\n");
     printf("A matrix\n");
     for (i =0; i < m; i++)
@@ -77,7 +79,7 @@ int main (void)
     }
     
     printf("\n");
-    printf("R decomposition of a matrix:\n");
+    printf("R decomposition of A:\n");
     for (i =0; i <m; i++){
         for (j =0; j<n; j++){
             printf("%9.4lf\t",R[i][j]);
